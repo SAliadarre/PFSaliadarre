@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black usados</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+        <a href="index.html">
+            <img src="assets/logo pagina.jpg" alt="logo" >
+        </a>
+        </div>
+             <nav class="menu">
+                <ul class="button-menu">
+                    <li><a href="vender.html">Vender</a></li>
+                    <li><a href="comprar.html">Comprar</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="vender-publicidad">
+            <img src="assets/venda su auto.jpg" alt="venda su auto">
+        </section>
+        <section class="vender-ventas">
+            <h1>Vendemos su auto mientras lo sigue usando</h1>
+            <form action="archivo.php" method="post" enctype="text/plain" class="vender-form">
+                <fieldset class="venta-nombre">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre">
+                </fieldset>
+                <fieldset class="venta-telefono">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono">
+                </fieldset>
+                <fieldset class="venta-mail">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail">
+                </fieldset>
+                <fieldset class="venta-marca">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca">
+                </fieldset>
+                <fieldset class="venta-modelo">
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo">
+                </fieldset>
+                <fieldset class="venta-año">
+                    <label for="año">Año:</label>
+                    <input type="text" id="año">
+                </fieldset>
+                <fieldset class="venta-kilometraje">
+                    <label for="kilometraje">Kilometraje:</label>
+                    <input type="text" id="kilometraje">
+                </fieldset>
+                <fieldset class="venta-describa">
+                    <label for="describa">Describa el vehículo:</label>
+                    <textarea name="describa" id="describa" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="submit" value="enviar" class="venta-enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright - Todos los derechos reservados - 2023</p>
+        <ul>
+            <li>
+                <img src="assets/whatsapp.png" alt="">
+                <a href="">WhatsApp</a>
+            </li>
+            <li>
+                <img src="assets/instagram.png" alt="">
+                <a href="">instagram</a>
+            </li>
+            <li>
+                <img src="assets/twitter.png" alt="">
+                <a href="">Twitter</a>
+            </li>
+        </ul>
+    </footer>    
+</body>
+</html>

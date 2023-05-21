@@ -1,0 +1,572 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-cemento-gris-fondos_34552-495.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------------------------------------*/
+/*
+.cabecera{
+    width: 99,9%;
+    height: 80px;
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: sticky;
+    top: 5px;
+    z-index: 100;
+}
+
+.logo{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.logo a img{
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    display: inline-block;
+    padding-left: 1150px;
+    position: absolute;
+}
+
+
+.button-menu{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.button-menu li{
+    display: inline-block;
+    margin: 10px 10px 10px 50px;
+    font-size: 30px;
+}
+
+.button-menu li a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/*----------------------------------------------------------------------*/
+/*
+.main-publicidad{
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 99,9%;
+    height: 420px;
+}
+
+.main-publicidad img{
+    display: inline-block;
+    width:1887px;
+    height: 415px;
+}
+
+.main-elegirnos h1{
+    margin: 30px 5px 5px 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.main-elegirnos{
+    margin: 5px 5px 20px 5px;
+}
+
+.main-elegirnos img{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.main-elegirnos div{
+    display: inline-block;
+    margin: 5px;
+}
+
+.img-left{
+    padding-left: 120px;
+}
+
+.img-center{
+    padding: 0px 300px;
+}
+
+.main-elegirnos div h2{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main-elegirnos div p{
+    font-size:30px;
+    text-align: center;
+}
+
+.main-destacados{
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.main-destacados h3{
+    padding: 30px 0px;
+    font-size:80px;
+    text-align: center;
+}
+
+.main-destacados div{
+    display: inline-block;
+    width: 520px;
+    height: 465px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow:3px 3px  #263d53, -1em 0 0.4em #263d53;
+}
+
+.main-destacados div img{
+    border-radius: 10px;
+    width: 494px;
+    height: 345px;
+}
+
+.main-destacados div p{
+    color: #2B78E4;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.destacados-left{
+    margin-left: 110px;
+}
+
+.destacados-center{
+    margin: 0 30px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*
+.vender-publicidad{
+    margin: 5px;
+    width: 99,9%;
+    height: 420px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.vender-publicidad img{
+    width: 1886px;
+    height: 414px;
+    border-radius: 10px;
+}
+
+.vender-form{
+    height: 1170px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.vender-ventas h1{
+    text-align: center;
+    font-size:60px;
+    padding-top: 20px;
+}
+
+section form fieldset{
+    display: inline-block;
+    width: 1825px;
+    height: 75px;
+    margin:10px 30px;
+    padding: 10px 20px;
+}
+
+.venta-modelo{
+    display: inline-block;
+    width: 1362px;
+}
+
+.venta-año{
+    display: inline-block;
+    width: 400px;
+}
+
+.venta-describa{
+    height: 500px;
+}
+
+section form fieldset label{
+    font-size: 30px;
+}
+
+section form fieldset input{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.venta-nombre input{
+    width: 1573px;
+}
+
+.venta-telefono input{
+    width: 1678px;
+}
+
+.venta-mail input{
+    width: 1710px;
+}
+
+.venta-marca input{
+    width: 1700px;
+}
+
+.venta-modelo input{
+    width: 1224px;
+}
+
+.venta-año input{
+    width: 300px;
+}
+
+.venta-kilometraje input{
+    width: 1640px;
+}
+
+.venta-describa textarea{
+    margin-left: 230px;
+    width: 1544px;
+    height: 474px;
+    font-size: 30px;
+}
+
+.venta-describa label{
+    position: absolute;
+}
+
+.venta-enviar{
+    margin: 10px 10px 10px 1706px;
+    width: 150px;
+    height: 40px;
+    background-color: #05fa19;
+    font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------*/
+/*
+.comprar h1{
+    margin: 50px 0 20px 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+.comprar-filtrar{
+    margin: 5px;
+}
+
+.comprar-marcas{
+    display: inline-block;
+    position: absolute;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 220px;
+    height: 540px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.filtros-marcas{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.filtros-marcas div{
+    margin-left: 5px;
+}
+
+.filtros-marcas div label{
+    font-size: 30px;
+}
+
+.comprar-autos{
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-left: 250px;
+    width: 1648px;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.comprar-autos div{
+    display: inline-block;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    margin: 58px 24px 24px 58px;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow:3px 3px  #263d53, -1em 0 0.4em #263d53
+}
+
+.comprar-autos div img{
+    border-radius: 10px;
+    width: 424px;
+    height: 350px;
+}
+
+.comprar-autos div p{
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    color: #2B78E4;
+}
+
+.comprar-año{
+    display: inline-block;
+    position: absolute;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin:550px 0 0 5px;
+    padding: 10px;
+    width: 140px;
+    height: 400px;
+    overflow: auto;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.comprar-año fieldset{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.filtros-año div label{
+    font-size: 30px;
+}
+
+/*------------------------------------------------------------------------*/
+/*
+.sucursales-publicidad{
+    margin: 5px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 99,9%;
+    height: 706px;
+}
+
+.sucursales-publicidad img{
+    border-radius: 7px;
+    width: 1887px;
+    height: 700px;
+}
+
+.sucursales div{
+    display: inline-block;
+}
+
+.sucursales h1{
+    margin: 50px 0 30px 0;
+    font-size: 100px;
+    text-align: center;
+}
+
+.sucursal{
+    display: inline-block;
+    margin: 52px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow:3px 3px  #263d53, -1em 0 0.4em #263d53;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.sucursal h2{
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.sucursal p{
+    font-size: 30px;
+}
+
+.sucursal img{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.sucursal ul{
+    list-style: none;
+}
+
+.sucursal ul li img{
+    width: 40px;
+}
+
+.sucursal ul li a{
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #3a0f85;
+
+}
+
+.sucursal div img{
+    display: block;
+    margin: 80px 0 0 220px;
+    width: 50px;
+}
+
+.sucursal div p{
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #3a0f85;
+}
+
+/*--------------------------------------------------------------------------*/
+/*
+.quienes-somos h1{
+    margin: 50px 0 30px 0;
+    font-size: 120px;
+    text-align: center;
+}
+.quienes-somos p{
+    margin: 10px 5px 200px 5px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.surge-servicio div{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin: 5px 5px 30px 5px ;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.surge-servicio div h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.surge-servicio div p{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.nosotros-form{
+    border: 3px solid #000000;
+    margin: 5px 5px 50px 5px;
+    border-radius: 10px;
+    height: 200px;
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.form-nombre{
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+}
+
+.form-nombre input{
+    font-size: 20px;
+    width: 1684px;
+}
+
+.form-mail{
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+}
+
+.form-mail input{
+    font-size: 20px;
+    width: 1800px;
+}
+
+.form-telefono{
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+}
+
+.form-telefono input{
+    font-size: 20px;
+    width: 1774px;
+}
+
+.form-reset{
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    margin: 24px 0 0 1600px;
+}
+
+.form-enviar{
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    margin: 10px 0 0 1750px;
+    background-color: #05fa19;
+}
+/*----------------------------------------------------------------------*/
+/*
+footer{
+    margin: 5px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+footer p{
+    margin: 30px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer ul{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+footer ul li{
+    margin-bottom: 3px;
+}
+
+footer ul li img{
+    width: 20px;
+}
+
+footer ul li a{
+    margin-left: 3px;
+    color: #000000;
+}
+
+/*--------------------------------------------------------------------------*/
+
