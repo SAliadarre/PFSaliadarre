@@ -584,7 +584,6 @@ nav div a img{
 }
 
 nav div{
-    background-color: #050505;
     font-size: 30px;
 }
 
@@ -594,7 +593,7 @@ nav div{
     border-radius: 10px;
     width: 99%;
     margin: 5px;
-    padding: 0;
+    padding: 10px;
 }
 
 
