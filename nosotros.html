@@ -5,111 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black usados</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald&display=swap" rel="stylesheet">
+    
+<!-- CSS de Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- CSS Custom -->
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="cabecera">
-        <div class="logo">
-        <a href="index.html">
-            <img src="assets/logo pagina.jpg" alt="logo" >
-        </a>
+
+    <header class="sticky-top">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo pagina.jpg" alt="Bootstrap" width="30" height="24">
+              </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center">
+              <a class="nav-link" href="comprar.html">Comprar</a>
+              <a class="nav-link" href="vender.html">Vender</a>
+              <a class="nav-link" href="sucursales.html">Sucursales</a>
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </div>
+          </div>
+
         </div>
-             <nav class="menu">
-                <ul class="button-menu">
-                    <li><a href="vender.html">Vender</a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="sucursales.html">Sucursales</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </nav>
+    </nav>
+
     </header>
-    <main>
-        <section class="quienes-somos">
-            <h1>¿Quienes Somos?</h1>
-            <p>
+
+      <main>
+        <section class="text-center">
+            <div class="fw-bold fs-1">
+                <h1>¿Quienes Somos?</h1>
+            <p class="container-fluid">
                 Somos una empresa especializada en la compra y venta de vehículos de dueño a dueño, haciendo que nuestro cliente obtenga el mayor precio por su usado, brindando seguridad al no exponerse en mostrar su auto, con la transparencia que genera una venta entre particulares y con la tranquilidad y eficiencia de nuestra gestión.
             </p>
+            </div>
         </section>
-        <section class="surge-servicio">
-            <div>
+
+        <section class="text-center">
+            <div class="fw-bold fs-1">
                 <h2>¿Como surge BlackAuto?</h2>
-                    <p>
-                        Surge a partir de distintas falencias detectadas en  la comercialización de vehículos que intermedian terceros dentro del mercado formal e informal, como falta de transparencia y credibilidad, entre otras cosas.</p>
-                   <p>
+                    <p class="container-fluid">
+                        Surge a partir de distintas falencias detectadas en  la comercialización de vehículos que intermedian terceros dentro del mercado formal e informal, como falta de transparencia y credibilidad, entre otras cosas.
                         Al notar la escases de opciones que tenía un dueño para   vender su vehículo, siendo éstas, entregarlo en permuta o venderlo a un intermediario (perdiendo dinero), dejarlo en consignación (quedando sin disponer de su vehículo) o venderlo de manera particular (corriendo riesgos y en desconocimiento de cómo proceder ante la venta), viendo y analizando los puntos positivos y negativos de cada opción se generó VENDOSUAUTO.COM. En el año 2014, decidimos lanzar al mercado un sistema integral de comercialización que supere dichas debilidades, que fue pionero en el rubro ofreciendo un servicio rápido, seguro y transparente. Siendo la única plataforma tecnológica que ofrece un servicio completo y diferencial que permite seguir usando el vehículo hasta la venta y abonando nuestra comisión una vez realizada la misma, sin costo previo.
-                   </p>
-                   <p>
+                  
                         Nuestro compromiso se inicia desde la toma de fotografías hasta la entrega del vehículo y presentación de transferencia.
-                   </p>           
+                   </p>
             </div>
+
             <div>
-                <h2>El servicio cuenta con</h2>
-                    <p>
-                        Tasación del vehículo a valores reales de mercado, siendo igualmente el dueño quien define finalmente el precio de venta del vehículo.      
-                     </p>
-                     <p>
-                         Toma de fotografías de forma profesional en el lugar designado por el vendedor, para su posterior publicación.
-                     </p>
-                     <p>
-                         Publicación del rodado con sus características y fotos en nuestra web, redes sociales y portales especializados con alta exposición.
-                     </p>
-                     <p>
-                         Gestión de todos los contactos.
-                     </p>
-                     <p>
-                         Coordinación de las visitas con posibles compradores generando una excelente eficiencia en la venta.
-                     </p>
-                     <p>
-                         Muestra del vehículo en el lugar que más le convenga al dueño.
-                     </p>
-                     <p>
-                         Finalización de la operación con conformidad pactando forma, día y lugar de pago.
-                     </p>
-                     <p>
-                         Acompañamiento al comprador al Registro Nacional de la Propiedad Automotor para realizar la trasferencia.
-                     </p>
-                     <p>
-                         Seguimiento del trámite hasta estar finalizado.
-                     </p>
+                <div class="fw-bold fs-1">
+                    <h2>El servicio cuenta con</h2>
+                        <div class="container-fluid">
+                            <p>
+                                Tasación del vehículo a valores reales de mercado, siendo igualmente el dueño quien define finalmente el precio de venta del vehículo.      
+                             </p>
+                             <p>
+                                 Toma de fotografías de forma profesional en el lugar designado por el vendedor, para su posterior publicación.
+                             </p>
+                             <p>
+                                 Publicación del rodado con sus características y fotos en nuestra web, redes sociales y portales especializados con alta exposición.
+                             </p>
+                             <p>
+                                 Gestión de todos los contactos.
+                             </p>
+                             <p>
+                                 Coordinación de las visitas con posibles compradores generando una excelente eficiencia en la venta.
+                             </p>
+                             <p>
+                                 Muestra del vehículo en el lugar que más le convenga al dueño.
+                             </p>
+                             <p>
+                                 Finalización de la operación con conformidad pactando forma, día y lugar de pago.
+                             </p>
+                             <p>
+                                 Acompañamiento al comprador al Registro Nacional de la Propiedad Automotor para realizar la trasferencia.
+                             </p>
+                             <p>
+                                 Seguimiento del trámite hasta estar finalizado.
+                             </p>
+                        </div>
+                </div>
             </div>
+
         </section>
-        <form action="archivo.php" method="post" class="nosotros-form">
-            <fieldset class="form-nombre">
-                <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" id="nombre">
-            </fieldset>
-            <fieldset class="form-mail">
-                <label for="mail">Email:</label>
-                <input type="email" id="mail">
-            </fieldset>
-            <fieldset class="form-telefono">
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono">
-            </fieldset>
-            <input type="reset" value="reset" class="form-reset">
-            <input type="submit" value="enviar" class="form-enviar">
-        </form>
-    </main>
-    <footer>
-        <p>Copyright - Todos los derechos reservados - 2023</p>
-        <ul>
-            <li>
-                <img src="assets/whatsapp.png" alt="">
-                <a href="">WhatsApp</a>
-            </li>
-            <li>
-                <img src="assets/instagram.png" alt="">
-                <a href="">instagram</a>
-            </li>
-            <li>
-                <img src="assets/twitter.png" alt="">
-                <a href="">Twitter</a>
-            </li>
-        </ul>
+
+
+      </main>
+
+
+
+      <footer class="container-fluid row bg-dark">
+        <div>
+          <a href=""><img src="assets/whatsapp.png" alt="" class="rounded float-end"></a>    
+        <a href=""> <img src="assets/instagram.png" alt="" class="rounded float-start"></a>
+        </div>
+        <div class="text-center">
+          <a href="index.html"><img src="assets/logo pagina.jpg" alt="logo" class="rounded"></a>
+        </div>
+        <p class="text-center">Copyright - Todos los derechos reservados - 2023</p>
     </footer>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
