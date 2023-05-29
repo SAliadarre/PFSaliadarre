@@ -629,6 +629,30 @@ section div{
     margin-bottom:50px;
 }
 
+.form-control{
+    width: 90%;
+    margin-left: 10px;
+}
+
+.form-label{
+    margin-left: 10px;
+}
+
+.h1-ventas{
+    text-align: center;
+}
+
+.descripcion{
+    height: 200px;
+}
+
+.btn{
+    margin: 0px 10px;
+}
+
+
+
+
 
 footer{
     border: 3px solid #000;

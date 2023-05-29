@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black usados</title>
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald&display=swap" rel="stylesheet">
+    <title>Black usados</title>
+    
+<!-- CSS de Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- CSS Custom -->
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="cabecera">
-        <div class="logo">
-        <a href="index.html">
-            <img src="assets/logo pagina.jpg" alt="logo" >
-        </a>
-        </div>
-             <nav class="menu">
-                <ul class="button-menu">
-                    <li><a href="vender.html">Vender</a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="sucursales.html">Sucursales</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </nav>
-    </header>    
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+  
+              <a class="navbar-brand" href="index.html">
+                  <img src="assets/logo pagina.jpg" alt="Bootstrap" width="30" height="24">
+                </a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav text-center">
+                <a class="nav-link" href="comprar.html">Comprar</a>
+                <a class="nav-link" href="vender.html">Vender</a>
+                <a class="nav-link" href="sucursales.html">Sucursales</a>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </div>
+            </div>
+  
+          </div>
+      </nav>
+  
+      </header>    
     <main>
         <section class="sucursales-publicidad">
             <img src="assets/Sucursales.jpg" alt="">
         </section>
         <section class="sucursales">
         <h1>Sucursales</h1>
-            <div class="sucursal">
+            <!-- <div class="sucursal">
                 <h2>Buenos Aires</h2>
                 <p>CABA</p>
                 <p>Av. Rivadavia 2074</p>
@@ -56,8 +68,8 @@
                     <img src="assets/logo map.png" alt="logo mapa">
                     <p>Ver vehículos disponibles en la sucursal</p>
                 </div>     
-            </div>  
-            <div class="sucursal">
+            </div>   -->
+            <!-- <div class="sucursal">
                 <h2>Santa Fé</h2>
                 <p>Rosario</p>
                 <p>Av. Pellegrini 1460</p>
@@ -80,8 +92,8 @@
                     <img src="assets/logo map.png" alt="logo mapa">
                     <p>Ver vehículos disponibles en la sucursal</p>
                 </div>     
-            </div>
-            <div class="sucursal">
+            </div> -->
+            <!-- <div class="sucursal">
                 <h2>Córdoba</h2>
                 <p>Carlo Paz</p>
                 <p>Bv. Avellaneda 450</p>
@@ -105,24 +117,19 @@
                     <p>Ver vehículos disponibles en la sucursal</p>
                 </div>     
             </div>   
-        </section>
+        </section> -->
     </main>
-    <footer>
-        <p>Copyright - Todos los derechos reservados - 2023</p>
-        <ul>
-            <li>
-                <img src="assets/whatsapp.png" alt="">
-                <a href="">WhatsApp</a>
-            </li>
-            <li>
-                <img src="assets/instagram.png" alt="">
-                <a href="">instagram</a>
-            </li>
-            <li>
-                <img src="assets/twitter.png" alt="">
-                <a href="">Twitter</a>
-            </li>
-        </ul>
+    <footer class="container-fluid row bg-dark">
+        <div>
+          <a href=""><img src="assets/whatsapp.png" alt="" class="rounded float-end"></a>    
+        <a href=""> <img src="assets/instagram.png" alt="" class="rounded float-start"></a>
+        </div>
+        <div class="text-center">
+          <a href="index.html"><img src="assets/logo pagina.jpg" alt="logo" class="rounded"></a>
+        </div>
+        <p class="text-center">Copyright - Todos los derechos reservados - 2023</p>
     </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
