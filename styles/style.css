@@ -581,7 +581,9 @@ body{
     overflow-x: hidden;
 }
 
-
+.collapse{
+    flex-grow: 0;
+}
 
 nav div a img{
     width: 50px;
