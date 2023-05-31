@@ -98,8 +98,19 @@ section{
     width: 40px;
 }
 
+.nosotros-p{
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 900px) {
+    .nosotros-p{
+      font-size: 1rem;
+    }
+  }
 
-
+  .nosotros-section{
+    margin-top: 30px;
+  }
 
 
 footer{
