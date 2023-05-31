@@ -1,0 +1,102 @@
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/textura-pared-cemento-gris-fondos_34552-495.jpg?w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.collapse {
+  flex-grow: 0;
+}
+
+nav div a img {
+  width: 50px;
+  height: 50px;
+}
+
+nav div {
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.container-fluid {
+  color: #000;
+  background-color: rgba(51, 51, 51, 0.9);
+  border-radius: 10px;
+  width: 99%;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #000;
+}
+
+.publicidad-main {
+  margin: 20px 5px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.text-center h1 {
+  font-size: 40px;
+}
+
+.text-center img {
+  width: 100px;
+}
+
+.card {
+  border: 3px solid #000;
+  margin: 5px;
+  width: 300px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.destacados {
+  margin-bottom: 50px;
+}
+
+.form-control {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.form-label {
+  margin-left: 10px;
+}
+
+.h1-ventas {
+  text-align: center;
+}
+
+.descripcion {
+  height: 200px;
+}
+
+.btn {
+  margin: 0px 10px;
+}
+
+.sucursal-icon {
+  width: 40px;
+}
+
+footer {
+  border: 3px solid #000;
+}
+
+footer p {
+  font-size: 20px;
+  color: #000;
+}
+
+footer div a img {
+  width: 40px;
+  margin: 3px;
+}/*# sourceMappingURL=main.css.map */
