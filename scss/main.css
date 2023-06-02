@@ -47,6 +47,10 @@ nav div a img {
   padding: 2px;
 }
 
+button a {
+  transition: 0.5s;
+}
+
 button a:hover {
   background-color: #999791;
   border-radius: 20px;

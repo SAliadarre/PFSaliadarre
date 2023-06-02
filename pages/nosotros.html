@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <!-- CSS Custom -->
 <link rel="stylesheet" href="../scss/main.css">
+<!-- LINK de Libreria de Animaciones -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -71,7 +73,7 @@
         <section class="text-center nosotros-section">
             <div class="fw-bold fs-1">
                 <h2>¿Como surge BlackAuto?</h2>
-                    <p class="container-fluid nosotros-p">
+                    <p class="container-fluid nosotros-p" data-aos="fade-down">
                         Surge a partir de distintas falencias detectadas en  la comercialización de vehículos que intermedian terceros dentro del mercado formal e informal, como falta de transparencia y credibilidad, entre otras cosas.
                         Al notar la escases de opciones que tenía un dueño para   vender su vehículo, siendo éstas, entregarlo en permuta o venderlo a un intermediario (perdiendo dinero), dejarlo en consignación (quedando sin disponer de su vehículo) o venderlo de manera particular (corriendo riesgos y en desconocimiento de cómo proceder ante la venta), viendo y analizando los puntos positivos y negativos de cada opción se generó VENDOSUAUTO.COM. En el año 2014, decidimos lanzar al mercado un sistema integral de comercialización que supere dichas debilidades, que fue pionero en el rubro ofreciendo un servicio rápido, seguro y transparente. Siendo la única plataforma tecnológica que ofrece un servicio completo y diferencial que permite seguir usando el vehículo hasta la venta y abonando nuestra comisión una vez realizada la misma, sin costo previo.
                   
@@ -83,31 +85,31 @@
                 <div class="fw-bold nosotros-section">
                     <h2>El servicio cuenta con</h2>
                         <div class="container-fluid">
-                            <p class="nosotros-p">
+                            <p class="nosotros-p" data-aos="fade-up">
                                 Tasación del vehículo a valores reales de mercado, siendo igualmente el dueño quien define finalmente el precio de venta del vehículo.      
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Toma de fotografías de forma profesional en el lugar designado por el vendedor, para su posterior publicación.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Publicación del rodado con sus características y fotos en nuestra web, redes sociales y portales especializados con alta exposición.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Gestión de todos los contactos.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Coordinación de las visitas con posibles compradores generando una excelente eficiencia en la venta.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Muestra del vehículo en el lugar que más le convenga al dueño.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Finalización de la operación con conformidad pactando forma, día y lugar de pago.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Acompañamiento al comprador al Registro Nacional de la Propiedad Automotor para realizar la trasferencia.
                              </p>
-                             <p class="nosotros-p">
+                             <p class="nosotros-p" data-aos="fade-up">
                                  Seguimiento del trámite hasta estar finalizado.
                              </p>
                         </div>
@@ -115,28 +117,28 @@
             </div>
 
         </section>
-        <p class="fs-1 text-center">Para mas información cpmpletar el formulario</p>
+        <p class="fs-1 text-center" data-aos="fade-right">Para mas información cpmpletar el formulario</p>
         <section class="container-fluid">
             <form action="archivo.php" method="post">
 
-                 <div class="mb-3">
+                 <div class="mb-3" data-aos="fade-left">
                     <label for="nombre" class="form-label">NOMBRE Y APELLIDO:</label>
                     <input type="text" class="form-control" id="nombre">
                   </div>
 
-                  <div class="mb-3">
+                  <div class="mb-3" data-aos="fade-left">
                     <label for="email" class="form-label">EMAIL:</label>
                     <input type="mail" class="form-control" id="email">
                   </div>
 
-                  <div class="mb-3">
+                  <div class="mb-3" data-aos="fade-left">
                     <label for="tel" class="form-label">TELÉFONO</label>
                     <input type="text" class="form-control" id="tel">
                   </div>
 
                   <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary btn-sm me-md-2" type="reset" value="reset">Reset</button>
-                    <button class="btn btn-success btn-lg" type="submit" value="submit">Enviar</button>
+                    <button class="btn btn-primary btn-sm me-md-2" type="reset" value="reset" data-aos="fade-left">Reset</button>
+                    <button class="btn btn-success btn-lg" type="submit" value="submit" data-aos="fade-left">Enviar</button>
                   </div>
             </form>
 
@@ -158,6 +160,13 @@
         <p class="text-center">Copyright - Todos los derechos reservados - 2023</p>
     </footer>
 
+    <!-- SCRIPT de Bootstrap -->
       <script src="../js/bootstrap.bundle.min.js"></script>
+
+       <!-- SCRIPT de Libreria de Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

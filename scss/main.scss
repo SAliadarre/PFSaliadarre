@@ -30,7 +30,9 @@ nav div a img{
     
 }
 
-
+button a{
+    transition: .5s;
+}
 
 button a:hover{
     background-color:#999791;
