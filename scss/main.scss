@@ -115,5 +115,29 @@ section{
     margin-top: 30px;
   }
 
+  .card-sucursales{
+    width: 340px;
+    margin: 10px;
+  }
   
-  
+  @media (min-width: 900px) {
+    .card-sucursales{
+      margin: 10px 50px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .sucursales-publicidad img{
+        height: 600px;
+      }
+  }
+
+ .filtro, .marcas, .año{
+    margin: 10px;
+  }
+
+  .lista-comprar{
+     width: 80px;
+     height: 200px;
+     overflow: auto;            
+  }

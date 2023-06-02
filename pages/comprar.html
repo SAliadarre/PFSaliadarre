@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
 
     <!-- META DE SEO description y keywords -->
     <meta name="description" content="Compra y vendé autos 0km y usados en todo el pais">
@@ -43,9 +43,9 @@
       </nav>
     
         </header>
-    <main class="comprar">
-        <h1>Encontrá tu próximo auto</h1>
-        <section class="comprar-filtrar">
+    <main>
+        <h1 class="text-center">Encontrá tu próximo auto</h1>
+        <section class="filtro">
             <label for="filtros">Filtrar por</label>
             <select name="filtros" id="filtros">
                 <option value="menor">Menor Precio</option>
@@ -54,157 +54,217 @@
                 <option value="antiguo">Más Antiguo</option>
             </select>
         </section>
-        <section class="comprar-marcas">
-            <fieldset class="filtros-marcas">
-                <legend>Marcas</legend>
-                <div>
-                    <input type="radio" id="audi">
-                    <label for="audi">Audi</label>
+        <section class="row marcas">
+
+            <div class="col-xl-3 col-sm-3 col-3">
+
+              <fieldset>
+
+                <div class="btn-group">
+
+                  <button type="button" class="btn btn-secondary dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">MARCAS</button>
+
+                  <ul class="dropdown-menu dropdown-menu-end lista-comprar">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Audi" checked>
+                      <label class="form-check-label" for="Audi">Audi</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Chevrolet">
+                      <label class="form-check-label" for="Chevrolet">Chevrolet</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Fiat">
+                      <label class="form-check-label" for="Fiat">Fiat</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Honda">
+                      <label class="form-check-label" for="Honda">Honda</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Jeep">
+                      <label class="form-check-label" for="Jeep">Jeep</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Mercedes-Benz">
+                      <label class="form-check-label" for="Mercedes-Benz">Mercedes Benz</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Nissan">
+                      <label class="form-check-label" for="Nissan">Nissan</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Peugeot">
+                      <label class="form-check-label" for="Peugeot">Peugeot</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Renault">
+                      <label class="form-check-label" for="Renault">Renault</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Toyota">
+                      <label class="form-check-label" for="Toyota">Toyota</label>
+                    </li>
+
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="Volkswagen">
+                      <label class="form-check-label" for="Volkswagen">Volkswagen</label>
+                    </li>
+
+                   
+                  </ul>
+
                 </div>
-                <div>
-                    <input type="radio" id="chevrolet">
-                    <label for="chevrolet">Chevrolet</label>
-                </div>
-                <div>
-                    <input type="radio" id="fiat">
-                    <label for="fiat">Fiat</label>
-                </div>
-                <div>
-                    <input type="radio" id="honda">
-                    <label for="honda">Honda</label>
-                </div>
-                <div>
-                    <input type="radio" id="jeep">
-                    <label for="jeep">Jeep</label>
-                </div>
-                <div>
-                    <input type="radio" id="mercedes">
-                    <label for="mercedes">Mercedes Benz</label>
-                </div>
-                <div>
-                    <input type="radio" id="nissan">
-                    <label for="nissan">Nissan</label>
-                </div>
-                <div>
-                    <input type="radio" id="peugeot">
-                    <label for="peugeot">Peugeot</label>
-                </div>
-                <div>
-                    <input type="radio" id="renault">
-                    <label for="renault">Renault</label>
-                </div>
-                <div>
-                    <input type="radio" id="toyota">
-                    <label for="toyota">Toyota</label>
-                </div>
-                <div>
-                    <input type="radio" id="volkswagen">
-                    <label for="volkswagen">Volkswagen</label>
-                </div>
-            </fieldset>
-        </section>
-        <section class="comprar-año">
-            <fieldset class="filtros-año">
-                <legend>Año</legend>
-            <div>
-                <input type="radio" id="2023">
-                <label for="2023">2023</label>
-            </div>
-            <div>
-                <input type="radio" id="2022">
-                <label for="2022">2022</label>
-            </div>
-            <div>
-                <input type="radio" id="2021">
-                <label for="2021">2021</label>
-            </div>
-            <div>
-                <input type="radio" id="2020">
-                <label for="2020">2020</label>
-            </div>
-            <div>
-                <input type="radio" id="2019">
-                <label for="2019">2019</label>
-            </div>
-            <div>
-                <input type="radio" id="2018">
-                <label for="2018">2018</label>
-            </div>
-            <div>
-                <input type="radio" id="2017">
-                <label for="2017">2017</label>
-            </div>
-            <div>
-                <input type="radio" id="2016">
-                <label for="2016">2016</label>
-            </div>
-            <div>
-                <input type="radio" id="2015">
-                <label for="2015">2015</label>
-            </div>
-            <div>
-                <input type="radio" id="2014">
-                <label for="2014">2014</label>
-            </div>
-            <div>
-                <input type="radio" id="2013">
-                <label for="2013">2013</label>
-            </div>
-            <div>
-                <input type="radio" id="2012">
-                <label for="2012">2012</label>
-            </div>
-            <div>
-                <input type="radio" id="2011">
-                <label for="2011">2011</label>
-            </div>
-            <div>
-                <input type="radio" id="2010">
-                <label for="2010">2010</label>
-            </div>
-            <div>
-                <input type="radio" id="2009">
-                <label for="2009">2009</label>
-            </div>
-            <div>
-                <input type="radio" id="2008">
-                <label for="2008">2008</label>
-            </div>
-            <div>
-                <input type="radio" id="2007">
-                <label for="2007">2007</label>
-            </div>
-            <div>
-                <input type="radio" id="2006">
-                <label for="2006">2006</label>
-            </div>
-            <div>
-                <input type="radio" id="2005">
-                <label for="2005">2005</label>
-            </div>
-            <div>
-                <input type="radio" id="2004">
-                <label for="2004">2004</label>
-            </div>
-            <div>
-                <input type="radio" id="2003">
-                <label for="2003">2003</label>
-            </div>
-            <div>
-                <input type="radio" id="2002">
-                <label for="2002">2002</label>
-            </div>
-            <div>
-                <input type="radio" id="2001">
-                <label for="2001">2001</label>
-            </div>
-            <div>
-                <input type="radio" id="2000">
-                <label for="2000">2000</label>
+
+              </fieldset>
+
             </div>
 
-            </fieldset>
         </section>
+
+        <section class="año">
+
+          <div class="btn-group">
+
+            <button type="button" class="btn btn-secondary dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">AÑO</button>
+
+            <ul class="dropdown-menu dropdown-menu-start lista-comprar">
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2023" checked>
+                <label class="form-check-label" for="2023">2023</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2022">
+                <label class="form-check-label" for="2022">2022</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2021">
+                <label class="form-check-label" for="2021">2021</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2020">
+                <label class="form-check-label" for="2020">2020</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2019">
+                <label class="form-check-label" for="2019">2019</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2018">
+                <label class="form-check-label" for="2018">2018</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2017">
+                <label class="form-check-label" for="2017">2017</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2016">
+                <label class="form-check-label" for="2016">2016</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2015">
+                <label class="form-check-label" for="2015">2015</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2014">
+                <label class="form-check-label" for="2014">2014</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2013">
+                <label class="form-check-label" for="2013">2013</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2012">
+                <label class="form-check-label" for="2012">2012</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2011">
+                <label class="form-check-label" for="2011">2011</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2010">
+                <label class="form-check-label" for="2010">2010</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2009">
+                <label class="form-check-label" for="2009">2009</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2008">
+                <label class="form-check-label" for="2008">2008</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2007">
+                <label class="form-check-label" for="2007">2007</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2006">
+                <label class="form-check-label" for="2006">2006</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2005">
+                <label class="form-check-label" for="2005">2005</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2004">
+                <label class="form-check-label" for="2004">2004</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2003">
+                <label class="form-check-label" for="2003">2003</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2002">
+                <label class="form-check-label" for="2002">2002</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2001">
+                <label class="form-check-label" for="2001">2001</label>
+              </li>
+
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="2000">
+                <label class="form-check-label" for="2000">2000</label>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </section>
+
         <section class="container-fluid row justify-content-center bg-dark ">
             <div class="card col-sm-12 col-xl-4">
                 <img src="../assets/auto.jpg" class="card-img-top" alt="auto">
@@ -213,7 +273,7 @@
                     <a href="">Ford Fiesta 1.6 S Plus Kd 5p L14</a>
                   </p>
                 </div>
-              </div>
+            </div>
 
               <div class="card col-sm-12 col-xl-4">
                 <img src="../assets/auto.jpg" class="card-img-top" alt="auto">
