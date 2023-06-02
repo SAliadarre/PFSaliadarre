@@ -42,12 +42,14 @@ nav div a img {
   height: 50px;
 }
 
-nav div {
+.btn-navbar {
   font-size: 30px;
+  padding: 2px;
 }
 
-.nav-link {
-  color: #000;
+button a:hover {
+  background-color: #999791;
+  border-radius: 20px;
 }
 
 .container-fluid {
