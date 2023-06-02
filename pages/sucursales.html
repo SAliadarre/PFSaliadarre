@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <!-- CSS Custom -->
 <link rel="stylesheet" href="../scss/main.css">
+<!-- LINK de Libreria de Animaciones -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header class="sticky-top">
@@ -64,7 +66,7 @@
         <section class="row justify-content-center sucursales">
         <h1 class="text-center">Sucursales</h1>
 
-        <div class="card card-sucursales col-sm-12 col-xl-4">
+        <div class="card card-sucursales col-sm-12 col-xl-4" data-aos="zoom-in-down">
             <div class="card-body">
                 <h5 class="card-title">BUENOS AIRES</h5>
                 <p class="card-text">CABA</p>
@@ -96,7 +98,7 @@
             </ul>
           </div>
 
-          <div class="card card-sucursales col-sm-12 col-xl-4">
+          <div class="card card-sucursales col-sm-12 col-xl-4" data-aos="zoom-in-down">
             <div class="card-body">
                 <h5 class="card-title">SANTA FE</h5>
                 <p class="card-text">Rosario</p>
@@ -128,7 +130,7 @@
             </ul>
           </div>
 
-          <div class="card card-sucursales col-sm-12 col-xl-4">
+          <div class="card card-sucursales col-sm-12 col-xl-4" data-aos="zoom-in-down">
             <div class="card-body">
                 <h5 class="card-title">CÓRDOBA</h5>
                 <p class="card-text">Carlos Páz</p>
@@ -161,7 +163,7 @@
           </div>
 
     </main>
-    <footer class="container-fluid row bg-dark footer">
+    <footer class="container-fluid row bg-dark footer" data-aos="fade-up">
         <div>
           <a href="https://www.whatsapp.com/" target="_blank"><img src="../assets/whatsapp.png" alt="logo whatsapp" class="rounded float-end"></a>    
           <a href="https://www.instagram.com/" target="_blank"> <img src="../assets/instagram.png" alt="logo instagram" class="rounded float-start"></a>
@@ -172,6 +174,13 @@
         <p class="text-center">Copyright - Todos los derechos reservados - 2023</p>
     </footer>
 
+    <!-- SCRIPT de Bootstrap -->
     <script src="../js/bootstrap.bundle.min.js"></script>
+
+      <!-- SCRIPT de Libreria de Animaciones -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
