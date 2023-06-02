@@ -2,7 +2,7 @@
 @import 'utilities/mixins';
 
 @import 'layout/header';
-@import 'layout/footer';
+@import 'layout/footer.scss';
 
 
 
@@ -12,6 +12,8 @@ body{
     background-size: cover;
     overflow-x: hidden;
 }
+
+
 
 .collapse{
     flex-grow: 0;
@@ -50,12 +52,13 @@ nav div{
     width: 100%;
 }
 
-.text-center h1{
-    font-size: 40px;
-}
-
-.text-center img{
-    width: 100px;
+.text-center {
+    h1{
+        font-size: 40px;
+    }
+    img{
+        width: 100px;
+    }
 }
 
 .card{
@@ -112,17 +115,5 @@ section{
     margin-top: 30px;
   }
 
-
-footer{
-    border: 3px solid #000;
-}
-
-footer p{
-    font-size: 20px;
-    color: #000;
-}
-
-footer div a img{
-    width: 40px;
-    margin: 3px;
-}
+  
+  

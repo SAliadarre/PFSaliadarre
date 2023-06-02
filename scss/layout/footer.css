@@ -1,1 +1,9 @@
-/*# sourceMappingURL=footer.css.map */
+footer p {
+  font-size: 20px;
+  color: #000;
+}
+
+footer div a img {
+  width: 40px;
+  margin: 3px;
+}/*# sourceMappingURL=footer.css.map */
