@@ -1,7 +1,7 @@
-@import 'utilities/variables.scss';
+@import 'utilities/_variables.scss';
 
-@import 'layout/header.scss';
-@import 'layout/footer.scss';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
 
 
 
@@ -12,45 +12,6 @@ body{
     overflow-x: hidden;
 }
 
-
-
-.collapse{
-    flex-grow: 0;
-}
-
-nav {
-    div {
-        a {
-            img{
-                width: 50px;
-                height: 50px;
-            }
-        }
-    }
-}
-
-.btn-navbar{
-    font-size: 30px;
-    padding: 2px;
-    
-}
-
-button {
-    a{
-        transition: .5s;
-        &:hover{
-            background-color:#999791;
-            border-radius: 20px;
-        }
-    }
-}
-
-button {
-    a:hover{
-        background-color:#999791;
-        border-radius: 20px;
-    }
-}
 
 .container-fluid{
     color: $color;
@@ -124,39 +85,39 @@ section{
     font-size: 2rem;
   }
   
-  @media (max-width: 900px) {
+@media (max-width: 900px) {
     .nosotros-p{
       font-size: 1rem;
     }
-  }
+}
 
-  .nosotros-section{
+.nosotros-section{
     margin-top: 30px;
-  }
+}
 
-  .card-sucursales{
+.card-sucursales{
     width: 340px;
     margin: 10px;
-  }
+}
   
-  @media (min-width: 900px) {
+@media (min-width: 900px) {
     .card-sucursales{
       margin: 10px 50px;
     }
-  }
+}
 
-  @media (min-width: 900px) {
+@media (min-width: 900px) {
     .sucursales-publicidad img{
         height: 600px;
       }
-  }
+}
 
- .filtro, .marcas, .año{
+.filtro, .marcas, .año{
     margin: 10px;
-  }
+}
 
-  .lista-comprar{
+.lista-comprar{
      width: 80px;
      height: 200px;
      overflow: auto;            
-  }
+}
